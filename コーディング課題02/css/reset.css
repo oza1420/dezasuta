@@ -8,9 +8,14 @@ body,
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 ul,
+ol,
 li,
 p,
+div,
 dl {
   margin: 0;
   padding: 0;
@@ -19,6 +24,7 @@ dl {
   color: #4c4c4c;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
     "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 a {
