@@ -1,0 +1,151 @@
+@charset "utf-8";
+.body{
+  background-color: e6d6b;
+}
+.header_inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-left: 2.8%;
+  padding-right: 7.7%;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.header_nav ul {
+ display: flex;
+ gap: 77px;
+}
+
+.logo{
+  width: 227px
+}
+.header_nav a{
+  color: #fff;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+      "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+}
+.body{
+  background-color: e6d6b;
+}
+/*section class="wrap1"*/
+.wrap1{
+  text-align: center;
+  padding: 104px 0 47px 0;
+  color: #4f260b;
+  font-family:"游明朝体";
+  font-feature-settings: "palt";
+}
+.text{
+  font-size: 30px; 
+}
+.h2_text{
+  font-size: 82px;
+  margin-top: 47px;
+  line-height: 1.17;
+}
+.text2{
+  font-size: 23px;
+  margin-top: 20px;
+  line-height: 1.65;
+}
+/*section class="wrap2"*/
+section.wrap2 {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.about_us_photo{
+  text-align: left;
+  width: 500px;
+  height: 560px;
+  border-bottom-right-radius: 100px;
+}
+.ABOUT US{
+  
+}
+.text3 {
+  color: #4f260b;
+  font-family: "游明朝体";
+}
+h2.text_title {
+  font-size: 44px;
+  margin-top: 48px;
+  line-height: 1.38;
+  
+}
+p.wrap2_text {
+  font-size: 16px;
+  font-feature-settings:"palt";
+  margin-top: 23px;
+}
+section.wrap3{
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  
+}
+h2.logo {
+  width: 151px;
+  height: 78px;
+  padding-top: 95px;
+  margin: 0 auto;
+  text-align: center;
+}
+ul {
+  display: flex;
+  margin-top: 39px;
+}
+.MENU_photo{
+  width: 300px;
+  height: 200px;
+  justify-content: space-between;
+  border-top-right-radius: 50px; 
+  
+}
+.MENU_title{
+  font-size: 38px;
+  font-family: "游明朝体";
+  color: #d30202;
+  line-height: 0.57;
+  margin: 0;
+  padding: 0;
+  font-feature-settings: "palt";
+}
+p.menu_text {
+  font-size: 17px;
+  font-family: "游明朝体";
+  color: #4f260b;
+  line-height: 1.47;
+  padding: 0 auto;
+  font-feature-settings: "palt";
+  margin-top: 9px;
+}
+.ul{
+  display: flex;
+  margin-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
