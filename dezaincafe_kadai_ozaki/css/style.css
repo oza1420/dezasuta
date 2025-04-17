@@ -13,6 +13,7 @@ body {
     padding-left: 2.8%;
     padding-right: 7.7%;
     position: absolute;
+    z-index: 10;
     width: 100%;
     box-sizing: border-box;
 }
@@ -113,24 +114,34 @@ body {
         display: none;
     }
 }
+.slick-dots {
+    bottom: 0;
+}
+.slick-dots li.slick-active button:before {
+    color: #ffffff;
+}
 
 /*main-visual*/
 .content {
-    text-align: center;
-    padding: 104px 0 47px 0;
-    color: #4f260b;
+    margin-top: 104px;
 }
 .main_text {
     font-size: 30px;
+    text-align: center;
+    margin-top: 104px;
+    color: #4f260b;
 }
 .main_title {
     font-size: 82px;
     margin-top: 47px;
+    text-align: center;
     line-height: 1.17;
 }
 .main_text_inner {
     font-size: 23px;
     margin-top: 20px;
+    margin-bottom: 93px;
+    text-align: center;
     line-height: 1.65;
 }
 /*ABOUT_US*/
