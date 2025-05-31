@@ -6,58 +6,96 @@
         <title>portfolio</title>
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/ola8rdn.css" />
     </head>
     <body>
         <div class="background">
-            <img
-                class="background_left"
-                src="images/wave_left.png"
-                alt="端の波線＿左"
-            />
-            <img
-                class="background_right"
-                src="images/wave_right.png"
-                alt="端の波線＿右"
-            />
+            <div id="wave--left" class="waves"></div>
+            <div id="wave--right" class="waves"></div>
         </div>
         <header>
             <nav class="header_nav">
                 <ul>
                     <li>
-                        <a href="#HOME">HOME </a>
+                        <a href="./index.html">HOME </a>
                     </li>
                     <li>
-                        <a href="#ABOUT">ABOUT </a>
+                        <a href="#about">ABOUT </a>
                     </li>
                     <li>
-                        <a href="#WORKS">WORKS</a>
+                        <a href="#works">WORKS</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+            </div>
+            <nav class="header_nav-sp">
+                <ul>
+                    <li>
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#works">WORKS</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section class="main_wrap">
-            <div class="main_title">
-                <h1 class="main_title_name">よこさん</h1>
-                <p class="main_title_sab_name">Portfolio Website</p>
+        <div class="main_wrap">
+            <div class="mv__inner">
+                <div class="main_title">
+                    <h1 class="main_title_name">よこさん</h1>
+                    <p class="main_title_sab_name">Portfolio Website</p>
+                </div>
+                <div class="img_wrap">
+                    <div class="mv-shapes">
+                        <div class="mv--pink">
+                            <p>デザイン</p>
+                            <img
+                                class="circle"
+                                src="images/main_pink_circle.png"
+                                alt="ピンクのマル"
+                            />
+                            <img
+                                class="half-circle"
+                                src="images/main_pink_half_moon.png"
+                                alt="ピンクの半月"
+                            />
+                        </div>
+
+                        <div class="mv--cross">
+                            <img
+                                class="cross--right"
+                                src="images/main_crossline_right.png"
+                                alt="クロスの右から斜め左"
+                            />
+                            <img
+                                class="cross--left"
+                                src="images/main_crossline_left.png"
+                                alt="クロスの左から斜め右"
+                            />
+                        </div>
+                        <div class="mv--blue">
+                            <p>コミュニケーション</p>
+                            <img
+                                class="circle"
+                                src="images/main_blue_circle.png"
+                                alt="青のマル"
+                            />
+                            <img
+                                class="half-circle"
+                                src="images/main_blue_half_moon.png"
+                                alt="青の半月"
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="img_wrap">
-                <p>デザイン</p>
-                <p>コミュニケーション</p>
-                <img src="images/main_pink_circle.png" alt="ピンクのマル" />
-                <img src="images/main_pink_half_moon.png" alt="ピンクの半月" />
-                <img src="images/main_blue_circle.png" alt="青のマル" />
-                <img src="images/main_blue_half_moon.png" alt="青の半月" />
-                <img
-                    src="images/main_crossline_right.png"
-                    alt="クロスの右から斜め左"
-                />
-                <img
-                    src="images/main_crossline_left.png"
-                    alt="クロスの左から斜め右"
-                />
-            </div>
-        </section>
-        <section class="concept_wrap">
+        </div>
+        <section id="concept" class="concept_wrap">
             <div class="wrap_top">
                 <h2 class="title_name">CONCEPT</h2>
                 <img
@@ -79,40 +117,38 @@
                 </p>
             </div>
         </section>
-        <section class="about_wrap">
-            <div class="about_bg">
-                <img src="images/ABOUT_img_back.png" alt="ABOUT背景" />
-            </div>
-            <div class="photo">
-                <img src="images/ABOUT_img.jpg" alt="自分の写真" />
-            </div>
-            <div class="about">
-                <h2 class="title_name">ABOUT</h2>
-                <img
-                    src="images/title_underline.png"
-                    alt="アバウトアンダーライン"
-                />
-
-                <p class="about_name_top">WEBデザイナー</p>
-                <h3 class="about_name">よこさん</h3>
-                <p class="about_text">
-                    岐阜県出身（日本の真ん中に住んでいます。）
-                    <br />
-                    <br />
-                    <br />
-                    目に興味をもち、視能訓練士として働きはじめました。その後、
-                    <br />より利用者に寄り添った支援をしたく、知的障がい者施設に転
-                    <br />職し、自分がやりたいを楽しみながら、全力で取り組んでいます。
-                    <br />将来は、主人と一緒にデザインに関わる仕事をしたいと考えて、
-                    <br />本格的にデザインを学びたいと思いデザスタに入りました。
-                </p>
+        <section id="about" class="about_wrap">
+            <div class="about__inner">
+                <div class="photo">
+                    <img src="images/profile-image.png" alt="自分の写真" />
+                </div>
+                <div class="about">
+                    <h2 class="title_name">ABOUT</h2>
+                    <img
+                        src="images/title_underline.png"
+                        alt="アバウトアンダーライン"
+                    />
+                    <p class="about_name_top">WEBデザイナー</p>
+                    <h3 class="about_name">よこさん</h3>
+                    <p class="about_text">
+                        岐阜県出身（日本の真ん中に住んでいます。）
+                        <br />
+                        <br />
+                        <br />
+                        目に興味をもち、視能訓練士として働きはじめました。その後、
+                        <br />より利用者に寄り添った支援をしたく、知的障がい者施設に転
+                        <br />職し、自分がやりたいを楽しみながら、全力で取り組んでいます。
+                        <br />将来は、主人と一緒にデザインに関わる仕事をしたいと考えて、
+                        <br />本格的にデザインを学びたいと思いデザスタに入りました。
+                    </p>
+                </div>
             </div>
         </section>
         <div class="about_under">
-            <p>enjoy design.enjoy design.enjoy design.</p>
+            <p class="loop_text">enjoy design.enjoy design.enjoy design.</p>
         </div>
 
-        <section class="works_wrap">
+        <section id="works" class="works_wrap">
             <div class="wrap_top">
                 <img src="images/imag_doll.png" alt="人形" />
                 <div class="works_logo">
@@ -126,90 +162,122 @@
             <div class="imag_wrap">
                 <ul>
                     <li>
-                        <img
-                            class="sp_bg"
-                            src="images/img_back.png"
-                            alt="img背景"
-                        />
-                        <img
-                            class="sp_bg"
-                            src="images/imag_spring.jpg"
-                            alt="springの画像"
-                        />
-                        <h3>banner</h3>
-                        <p>spring saleバナー（トレース）</p>
+                        <a href="./works/works_spring.html">
+                            <div>
+                                <img
+                                    class="sp_bg"
+                                    src="images/imag_spring.jpg"
+                                    alt="springの画像"
+                                />
+                            </div>
+                            <h3>banner</h3>
+                            <p>spring saleバナー（トレース）</p>
+                        </a>
                     </li>
                     <li>
-                        <img
-                            class="ice"
-                            src="images/img_back.png"
-                            alt="img背景"
-                        />
-                        <img
-                            class="ice"
-                            src="images/imag_ice.jpg"
-                            alt="iceの画像"
-                        />
-                        <h3>banner</h3>
-                        <p>アイスクリームキャンペーン告知バナー</p>
+                        <a href="./works/works_ice.html">
+                            <div>
+                                <img
+                                    class="ice"
+                                    src="images/imag_ice.jpg"
+                                    alt="iceの画像"
+                                />
+                            </div>
+                            <h3>banner</h3>
+                            <p>アイスクリームキャンペーン告知バナー</p>
+                        </a>
                     </li>
                     <li>
-                        <img
-                            class="burger"
-                            src="images/img_back.png"
-                            alt="img背景"
-                        />
-                        <img
-                            class="burger"
-                            src="images/imag_burger_pop.jpg"
-                            alt="popのハンバーガーの画像"
-                        />
-                        <h3>banner</h3>
-                        <p>新商品バーガーの来店促進バナー（POP）</p>
+                        <a href="./works/works_burger.html">
+                            <div>
+                                <img
+                                    class="burger"
+                                    src="images/imag_burger_pop.jpg"
+                                    alt="popのハンバーガーの画像"
+                                />
+                            </div>
+                            <h3>banner</h3>
+                            <p>新商品バーガーの来店促進バナー（POP）</p>
+                        </a>
                     </li>
                     <li>
-                        <img
-                            class="cafe"
-                            src="images/img_back.png"
-                            alt="img背景"
-                        />
-                        <img
-                            class="cafe"
-                            src="images/img_coffee.png"
-                            alt="カフェサイトの画像"
-                        />
-                        <h3>LP</h3>
-                        <p>cafeサイト（架空）</p>
+                        <a href="./works/works_burger.html">
+                            <div>
+                                <img
+                                    class="burger"
+                                    src="images/imag_burger.jpg"
+                                    alt="ハンバーガーの画像"
+                                />
+                            </div>
+                            <h3>banner</h3>
+                            <p>新商品バーガーの来店促進バナー</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./works/works_cafe.html">
+                            <div>
+                                <img
+                                    class="cafe"
+                                    src="images/img_coffee.png"
+                                    alt="カフェサイトの画像"
+                                />
+                            </div>
+                            <h3>LP</h3>
+                            <p>cafeサイト（架空）</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./works/works_workers.html">
+                            <div>
+                                <img
+                                    class="burger"
+                                    src="images/img_workers.png"
+                                    alt="workers（トレース）"
+                                />
+                            </div>
+                            <h3>banner</h3>
+                            <p>workers（トレース）</p>
+                        </a>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="contact_wrap">
+        <section id="contact" class="contact_wrap">
             <img src="images/imag_doll.png" alt="人形" />
             <h2 class="title_name">CONTACT</h2>
 
-            <div class="repuest">
+            <div class="request">
                 <p>
                     各種ご依頼やお問い合わせ、制作料金のご相談・ご質問など、
                     <br />お気軽にこちらのフォームよりご送信ください。２営業日以内でお返事させていただきます。
                 </p>
                 <form action="" method="post">
-                    <p>お名前</p>
-                    <input type="text" name="name" placeholder="山田 太郎" />
-                    <br />
-                    <p>メールアドレス</p>
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="sample@gmail.com"
-                    />
-                    <br />
-                    <p>問い合わせ内容</p>
-                    <textarea
-                        name="inquiry"
-                        placeholder="お問い合わせ内容をご記入ください。"
-                    ></textarea>
-                    <br />
+                    <div>
+                        <label>お名前</label>
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="山田 太郎"
+                        />
+                    </div>
+
+                    <div>
+                        <label>メールアドレス</label>
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="sample@gmail.com"
+                        />
+                    </div>
+
+                    <div>
+                        <label>問い合わせ内容</label>
+                        <textarea
+                            name="inquiry"
+                            placeholder="お問い合わせ内容をご記入ください。"
+                        ></textarea>
+                    </div>
+
                     <button>送信</button>
                 </form>
             </div>
@@ -217,19 +285,8 @@
         <footer class="footer">
             <p class="copylight">&copy; よこさん DESIGN</p>
         </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./js/script.js"></script>
     </body>
 </html>
-
-<!---
-お疲れ様です。すみません。寒暖差の影響で体調を崩していました。
-カフェのスマホ課題どこから手をつけて良いのかわからなくなりできていません。
-ポートフォリオのトップ、自分でできるところまで作成しています。
-ナビのボタンの作成の仕方、メインの配置で手が止まってしまいました。
-両橋の波が途中で切れていますが、つなげる方法はありますか。
-アバウトの自分の写真の角が残っていますが改善方法はありますか？
-ワークスの画像を重ねようとしましたが「？」となっています。
-コンセプト、アバウト、ワークスの下線の画像の距離を近づけたかったのですができませんでした。
-問い合わせフォームが難しくて苦戦しました。
-FBよろしくお願いします。
-進めれるところは進めて行きます。
--->
