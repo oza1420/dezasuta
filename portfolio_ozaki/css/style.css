@@ -1,0 +1,170 @@
+@charset "utf-8";
+body {
+    background-color: #fefced;
+    color: #4d4d4d;
+    font-family: alternate-gothic-atf, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.background {
+    display: flex;
+    justify-content: space-between;
+}
+.background_left {
+    position: absolute;
+    left: 0px;
+}
+.background_right {
+    position: absolute;
+    right: 0px;
+}
+.header_nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 200px;
+    color: #4d4d4d;
+    padding-bottom: 60px;
+    position: fixed;
+    top: 150px;
+    left: 240px;
+}
+.header_nav ul a {
+    color: #4d4d4d;
+    font-family: alternate-gothic-atf, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+.main_wrap {
+    margin-top: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.main_title {
+    margin-left: 130px;
+}
+.main_title_name {
+    font-size: 67pt;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+}
+.main_title_sab_name {
+    font-size: 24pt;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+}
+.img_wrap {
+    margin-left: 100px;
+}
+
+.concept_wrap {
+    margin-left: 100pt;
+}
+.wrap_top {
+    margin-left: 50pt;
+    font-size: 30pt;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+}
+.title_name {
+    font-size: 35px;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+}
+.title_underline {
+    width: 10%;
+}
+
+.wrap_under {
+    margin-top: 50pt;
+}
+.concept {
+    font: size 35px;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+    line-height: 1.7;
+}
+
+.concept_contents {
+    font-size: 16px;
+    font-family: 游ゴシック体;
+    font-style: Medium;
+    line-height: 1.6;
+}
+.about_wrap {
+    text-align: center;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.about_bg {
+    width: 100%;
+    height: auto;
+}
+.photo {
+    width: 50%;
+    position: absolute;
+    left: 80px;
+}
+.about {
+    width: 50%;
+    position: absolute;
+    right: 10px;
+    text-align: left;
+}
+.about_name_top {
+    font-size: 18px;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+}
+.about_name {
+    margin-top: 10px;
+    font-size: 53px;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+}
+.about_text {
+    margin-top: 26px;
+    font-size: 18px;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+}
+.about_under {
+    margin-top: 5%;
+    height: 300px;
+    font-size: 80px;
+    font-family: 游ゴシック体;
+    font-style: Bold;
+    color: #b3b3b3;
+    text-align: center;
+}
+.wrap_top {
+    height: 105px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+}
+.works_logo {
+    text-align: center;
+}
+.imag_wrap {
+    margin: 10%;
+}
+.contact_wrap {
+    text-align: center;
+}
+
+.footer {
+    margin: 90px;
+    text-align: center;
+}
