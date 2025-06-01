@@ -171,6 +171,7 @@ mv
     left: 50%;
     transform: translate(-50%, -50%);
     color: #b1007b;
+    z-index: 10;
 }
 
 .mv--blue .half-circle {
@@ -186,6 +187,208 @@ mv
     transform: translate(-50%, -50%);
     text-wrap: nowrap;
     color: #291e84;
+    z-index: 10;
+}
+
+.mv--pink .circle,
+.mv--pink .half-circle {
+    transform-origin: center bottom;
+    animation: down 3s ease-in-out forwards;
+}
+@keyframes down {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+.mv--pink .circle {
+    @keyframes tonton {
+        0% {
+            transform: scale(1, 1) translateY(-100%);
+            opacity: 0;
+        }
+        20% {
+            transform: scale(1.3, 0.5) translateY(10%);
+            opacity: 1;
+        }
+        35% {
+            transform: scale(1, 1) translateY(-60%);
+        }
+        48% {
+            transform: scale(1.1, 0.8) translateY(8%);
+        }
+        60% {
+            transform: scale(1, 1) translateY(-30%);
+        }
+        70% {
+            transform: scale(1.1, 0.8) translateY(5%);
+        }
+        78% {
+            transform: scale(1, 1) translateY(-15%);
+        }
+        84% {
+            transform: translateY(3%);
+        }
+        88% {
+            transform: translateY(-8%);
+        }
+        91% {
+            transform: translateY(1%);
+        }
+        93% {
+            transform: translateY(-3%);
+        }
+        95% {
+            transform: translateY(0);
+        }
+        96% {
+            transform: translateY(-1%);
+        }
+        97% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+    @keyframes tonton {
+        0% {
+            transform: scale(1, 1) translateY(-100%);
+            opacity: 0;
+        }
+        20% {
+            transform: scale(1.3, 0.5) translateY(10%);
+            opacity: 1;
+        }
+        35% {
+            transform: scale(1, 1) translateY(-60%);
+        }
+        48% {
+            transform: scale(1.1, 0.8) translateY(8%);
+        }
+        60% {
+            transform: scale(1, 1) translateY(-30%);
+        }
+        70% {
+            transform: scale(1.1, 0.8) translateY(5%);
+        }
+        78% {
+            transform: scale(1, 1) translateY(-15%);
+        }
+        84% {
+            transform: translateY(3%);
+        }
+        88% {
+            transform: translateY(-8%);
+        }
+        91% {
+            transform: translateY(1%);
+        }
+        93% {
+            transform: translateY(-3%);
+        }
+        95% {
+            transform: translateY(0);
+        }
+        96% {
+            transform: translateY(-1%);
+        }
+        97% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+.mv--blue .circle {
+    transform-origin: center bottom;
+    animation: tonton 5s ease-in-out forwards;
+}
+@keyframes tonton {
+    0% {
+        transform: scale(1, 1) translateY(-100%);
+        opacity: 0;
+    }
+    20% {
+        transform: scale(1.3, 0.5) translateY(10%);
+        opacity: 1;
+    }
+    35% {
+        transform: scale(1, 1) translateY(-60%);
+    }
+    48% {
+        transform: scale(1.1, 0.8) translateY(8%);
+    }
+    60% {
+        transform: scale(1, 1) translateY(-30%);
+    }
+    70% {
+        transform: scale(1.1, 0.8) translateY(5%);
+    }
+    78% {
+        transform: scale(1, 1) translateY(-15%);
+    }
+    84% {
+        transform: translateY(3%);
+    }
+    88% {
+        transform: translateY(-8%);
+    }
+    91% {
+        transform: translateY(1%);
+    }
+    93% {
+        transform: translateY(-3%);
+    }
+    95% {
+        transform: translateY(0);
+    }
+    96% {
+        transform: translateY(-1%);
+    }
+    97% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.mv--blue .half-circle {
+    transform-origin: center bottom;
+    animation: tonton02 4s ease-in-out forwards;
+}
+@keyframes tonton02 {
+    0% {
+        transform: scale(1, 1) translateY(180%) rotate(180deg);
+        opacity: 0;
+    }
+    20% {
+        transform: scale(1.3, 0.5) translateY(180%) rotate(180deg);
+        opacity: 1;
+    }
+    35% {
+        transform: scale(1, 1) translateY(180%) rotate(180deg);
+    }
+    48% {
+        transform: scale(1.1, 0.8) translateY(180%) rotate(180deg);
+    }
+    60% {
+        transform: scale(1, 1) translateY(180%) rotate(180deg);
+    }
+    70% {
+        transform: scale(1.1, 0.8) translateY(5%) rotate(0deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
 }
 .mv--cross .cross--right {
     position: absolute;
@@ -394,7 +597,7 @@ about
         width: 100%;
         margin-top: 200px;
         text-align: center;
-        margin-left: 5px;
+        margin-left: -8px;
     }
     .about_under {
         overflow-x: hidden;
@@ -655,6 +858,9 @@ works詳細ページ
     justify-content: left;
     font-size: 20px;
     margin-bottom: 30px;
+}
+.works-info .text_wrap li p {
+    line-height: 1.75;
 }
 .works-info_full_img {
     height: 980px;
